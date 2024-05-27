@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__node.selected {
+  border: 1px solid purple;
+  border-radius: 0.4rem;
+}
+.msgIcon {
+  filter: invert(35%) sepia(77%) saturate(1241%) hue-rotate(218deg)
+    brightness(96%) contrast(92%);
+}
+.success {
+  background-color: lightgreen;
+}
+.failure {
+  background-color: lightcoral;
+}
